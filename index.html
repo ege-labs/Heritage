@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Heritage Wiki</title>
+<meta name="description" content="Official wiki for the grand strategy game Heritage: economy, industry, military, diplomacy, research and more.">
+<link rel="icon" href="assets/icon.svg">
+<link rel="stylesheet" href="css/wiki.css">
+</head>
+<body>
+<header class="top">
+  <button class="iconbtn" id="menuBtn" aria-label="Menu">☰</button>
+  <a class="brand" href="#/"><span>Heritage <b>Wiki</b></span><span class="sub" id="subtitle"></span></a>
+  <div class="grow"></div>
+  <div class="search">
+    <input id="q" type="search" autocomplete="off" spellcheck="false">
+    <div class="results" id="results"></div>
+  </div>
+  <select id="lang" aria-label="Language"></select>
+  <button class="iconbtn" id="theme" aria-label="Theme">◐</button>
+</header>
+<nav class="side" id="side"></nav>
+<main><div class="page" id="page"></div></main>
+<div id="lightbox"><img alt=""></div>
+<script src="data/wiki-data.js"></script>
+<script src="js/content.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
